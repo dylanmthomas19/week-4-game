@@ -11,17 +11,24 @@ body {
     height: 80px;
     width: 55px;
     background-color: white;
-    
+    background-size: 150%;
+
 }
 #luke{
     height: 80px;
-    width: 55px;
+    width: 55px; 
+    background-color: white;
+    background-size: 150%;
 }
 #kylo{
     height: 80px;
     width: 60px;
+    background-color: white;
+    background-size: 150%;
 }
 #guard{
     height: 80px;
     width: 90px;
+    background-color: white;
+    background-size: 150%;
 }
