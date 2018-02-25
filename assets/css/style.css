@@ -1,0 +1,17 @@
+body {
+    background-image:url("../images/bkg-new.png");
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.title{
+    color: rgb(194, 20, 20);
+    float: left;
+}
+#rey{
+    height: 80px;
+    width: 55px;
+}
+#luke{
+    height: 80px;
+    width: 55px;
+}
