@@ -1,3 +1,11 @@
-var randomNumber = Math.ceil((Math.random()*100)+20);
-console.log(randomNumber)
-$(".randomNumber").text(randomNumber)
+$(document).ready(function(){
+    var gameOn = false;
+
+    var rey = {
+        health:100,
+        attack:15,
+        counter:12
+    }
+    
+    console.log(rey)
+});
