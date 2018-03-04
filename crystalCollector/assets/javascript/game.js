@@ -28,27 +28,30 @@ $(document).ready(function(){
     //win function
     function win(){
         wins++;
-        $("wins").text(wins)
+        console.log(wins)
+        $("#wins").text(wins)
         reset()
     }
 
     //lose function
     function lose(){
         losses++;
-        $("losses").text(losses)
+        $("#losses").text(losses)
         reset()
     }
 
     function reset(){
         goal=Math.floor(Math.random()*100+20);
 
-        var crystal1 = Math.floor(Math.random()*11+1);
+        crystal1 = Math.floor(Math.random()*11+1);
         
-        var crystal2 = Math.floor(Math.random()*11+1);
+        crystal2 = Math.floor(Math.random()*11+1);
         
-        var crystal3 = Math.floor(Math.random()*11+1);
+        crystal3 = Math.floor(Math.random()*11+1);
         
-        var crystal4 = Math.floor(Math.random()*11+1);
+        crystal4 = Math.floor(Math.random()*11+1);
+
+        console.log(crystal1, crystal2, crystal3, crystal4)
     
     }
     
